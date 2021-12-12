@@ -1,8 +1,7 @@
 {
-  "name": "soukatsu",
+  "name": "wiki",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "t": "npx ts-node src/translate",
@@ -12,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inomata137/soukatsu.git"
+    "url": "git+https://github.com/inomata137/wiki.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/inomata137/soukatsu/issues"
+    "url": "https://github.com/inomata137/wiki/issues"
   },
-  "homepage": "https://github.com/inomata137/soukatsu#readme",
+  "homepage": "https://github.com/inomata137/wiki#readme",
   "dependencies": {
     "@types/markdown-it": "^12.2.3",
     "markdown-it": "^12.3.0",
