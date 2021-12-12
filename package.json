@@ -1,0 +1,29 @@
+{
+  "name": "soukatsu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "t": "npx ts-node translate",
+    "c": "npx ts-node count",
+    "tc": "npx ts-node translate && npx ts-node count",
+    "h": "npx ts-node html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inomata137/soukatsu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inomata137/soukatsu/issues"
+  },
+  "homepage": "https://github.com/inomata137/soukatsu#readme",
+  "dependencies": {
+    "@types/markdown-it": "^12.2.3",
+    "markdown-it": "^12.3.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  }
+}
