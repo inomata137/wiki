@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "t": "npx ts-node translate",
-    "c": "npx ts-node count",
-    "tc": "npx ts-node translate && npx ts-node count",
+    "t": "npx ts-node src/translate",
+    "c": "npx ts-node src/count",
+    "tc": "npm run t && npm run c",
     "h": "npx ts-node html"
   },
   "repository": {
