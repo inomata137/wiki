@@ -26,3 +26,12 @@
 ```
 
 [これはリンク](https://www.google.com/)
+
+<dl>
+  <dt>term1</dt>
+  <dd>desc1</dd>
+  <dt>term2</dt>
+  <dd>desc2</dd>
+  <dt>term3</dt>
+  <dd>desc3</dd>
+</dl>

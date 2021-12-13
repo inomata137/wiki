@@ -7,7 +7,8 @@ import n from './n'
 import bold from './bold'
 import pre from './pre'
 import stroke from './stroke'
+import dl from './dl'
 export default function (str: string) {
   str = apply(str, pre)
-  return apply(str, heading, link, ol, ul, n, bold, stroke)
+  return apply(str, heading, link, ol, ul, n, bold, stroke, dl)
 }
