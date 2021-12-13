@@ -7,7 +7,9 @@
     "t": "npx ts-node src/translate",
     "c": "npx ts-node src/count",
     "tc": "npm run t && npm run c",
-    "h": "npx ts-node html"
+    "h": "npx ts-node src/html",
+    "o": "open ./output/output.html",
+    "ho": "npm run h && npm run o"
   },
   "repository": {
     "type": "git",
